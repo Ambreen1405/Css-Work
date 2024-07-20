@@ -1,0 +1,84 @@
+.content {
+  padding: 15px 9%;
+  padding-bottom: 100px;
+  
+}
+.content .main {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #0000ff;
+  font-size: 50px;
+  
+}
+.content .box-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+}
+.content .box-content .box {
+  box-shadow: 0 5px 10px black;
+  border-radius: 5px;
+  background: white;
+  text-align: center;
+  padding: 30px 20px;
+
+}
+.content .box-content .boxf {
+  box-shadow: 0 5px 10px black;
+  border-radius: 5px;
+  background: rgb(218, 32, 162);
+  text-align: center;
+  padding: 30px 20px;
+  color: white;
+
+}
+.content .box-content .box .btn {
+  margin-top: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 17px;
+  background-color: black;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+.content .box-content .boxf .btn {
+  margin-top: 10px;
+  display: inline-block;
+  color: rgb(218, 32, 162);
+  font-size: 17px;
+  background-color:white;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+.content .box-content .box .btn:hover {
+  letter-spacing: 1px;
+}
+.content .box-content .box:hover {
+  box-shadow: 0 10px 15px;
+  transform: scale(1.03);
+}
+.content .box-content .boxf .btn:hover {
+  letter-spacing: 1px;
+}
+.content .box-content .boxf:hover {
+  box-shadow: 0 10px 15px;
+  transform: scale(1.03);
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  text-decoration-color: black;
+}
+button {
+  background-color: rgb(12, 211, 242);
+  color: wheat;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 6px 6px 10px rgb(10, 9, 9);
+  
+}
+.n {
+  margin: 20px auto;
+  text-align: center;
+}
+

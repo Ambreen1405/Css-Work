@@ -1,0 +1,53 @@
+body {
+    background-image: url(img/Wood-Texture.webp);
+    background-color: #cccccc;
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.a {
+    text-align: center;
+    text-transform: uppercase;
+}
+.h {
+    text-shadow: 6px 6px 10px rgb(6, 5, 5);
+color: white;
+border-top: 5px solid white;
+border-bottom: 5px solid white;
+/* margin: 500px; */
+padding: 50px;
+text-indent: 10px;
+word-spacing: 10px;
+background-color: rgb(213, 130, 22);
+font-size: 70px;
+}
+.p {
+    color: rgb(251, 251, 249);
+    font-weight: 1oopx;
+    font-size: 50px;
+}
+.b {
+    border: 5px solid black;
+    box-shadow: 6px 6px 10px rgb(20, 16, 16);
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    font-size: 20px;
+    height: 300px;
+    padding: 20px;
+    transform: scale(1.03);
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    text-decoration-color: black;
+}
+button {
+    background-color: rgb(12, 211, 242);
+    color: wheat;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 6px 6px 10px rgb(10, 9, 9);
+}
