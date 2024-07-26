@@ -305,7 +305,7 @@ text-shadow: 2px 2px 3px rgb(17, 10, 10);
     text-decoration: underline;
     
 }
-.l {
+.ll {
     text-decoration: none;
     font-size: 30px;
     text-decoration-color: black;
@@ -317,7 +317,7 @@ text-shadow: 2px 2px 3px rgb(17, 10, 10);
     margin: 20px;
     box-shadow: 6px 6px 10px rgb(10, 9, 9);
 }
-.n {
+.nn {
     margin: 20px auto;
     text-align: center;
   }
