@@ -1,0 +1,307 @@
+nav {
+    background-color:rgb(3, 32, 42);
+    text-align: center;
+    text-transform: uppercase;
+    position: -webkit-sticky;
+    position: relative;
+    top: 0px;
+    color: white;
+    width: 100%;
+
+}
+/* header {
+    position: fixed;
+    z-index: 3px;
+    width: 100%;
+} */
+li , h1 , ol , nav {
+    display: inline-block;
+    text-align: center;
+    
+}
+ol {
+    float: right;
+    padding: 7px 55px;
+    text-indent: 25px;
+    
+
+}
+li {
+font-weight: bold;
+font-size: 20px;
+text-shadow: 2px 2px 3px rgb(17, 10, 10);
+}
+h1 {
+    font-size: 30px;
+}
+li:hover {
+    color: blue;
+    text-decoration: underline;
+    
+}
+.a {
+    height: 500px;
+    width: 100%;
+    margin: -0px;
+}
+
+.b img {
+    border: 8px solid white;
+    height: 500px;
+    width: 80%;
+    position: absolute;
+    top: 120px;
+    left: 140px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.751);
+}
+.c {
+    position: absolute;
+    top: 580px;
+    display: inline-block;
+    left: 100px;
+    
+}
+.c > img {
+    height: 100px;
+    width: 180px;
+    border: 5px solid rgba(246, 239, 239, 0.689);
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.751);
+}
+.d {
+    position: absolute;
+    top: 700px;
+    display: inline-block;
+    left: 100px;
+    
+}
+.d > h1 {
+    height: 100px;
+    width: 180px;
+    text-transform: uppercase;
+    margin: 70px;
+    border-radius: 10px;
+    color: white;
+}
+.d > h1:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.e {
+    position: absolute;
+    top: 740px;
+    display: inline-block;
+    left: 100px;
+    
+}
+.e > p {
+    height: 100px;
+    width: 180px;
+    font-size: smaller;
+    margin: 75px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+.e > p:hover {
+    color: rgb(216, 243, 15);
+    text-decoration: underline;
+}
+.f {
+    position: absolute;
+    top: 870px;
+    display: inline-block;
+    left: 130px;
+    
+}
+.f > button {
+    height: 30px;
+    width: 150px;
+    font-size: smaller;
+    margin: 85px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    background-color: rgb(40, 232, 168);
+    text-transform: uppercase;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.751);
+}
+.f > button:hover {
+    color: rgb(14, 155, 162);
+    text-decoration: underline;
+    background-color: antiquewhite;
+
+}
+.m {
+    position: absolute;
+    top: 1000px;
+    display: inline-block;
+    left: 70px;
+    background-color: rgb(0, 0, 0);
+}
+
+.m > p {
+   
+    height: 100px;
+    width: 300px
+    margin: 3px;
+    padding : 5px 30px;
+    color: white;
+    display: inline-block;
+    line-height : 50px;
+    
+}
+.g {
+    position: absolute;
+    top: 1100px;
+    display: inline-block;
+    left: 80px;
+    
+}
+.g > h1 {
+    height: 100px;
+    width: 280px;
+    
+    margin: 90px;
+    border-radius: 10px;
+    color: white;
+}
+.g > h1:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.h {
+    position: absolute;
+    top: 1250px;
+    display: inline-block;
+    left: 100px;
+    
+}
+.h > p {
+    height: 100px;
+    width: 150px;
+    font-size: smaller;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    float: right;
+    line-height: 25px;
+}
+.h > img {
+    height: 150px;
+    width: 120px;
+    border: 5px solid rgba(246, 239, 239, 0.689);
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.751);
+    float: inline-start;
+}
+.j {
+    position: absolute;
+    top: 1250px;
+    display: inline-block;
+    left: 610px;
+    
+}
+.j > p {
+    height: 100px;
+    width: 150px;
+    font-size: smaller;
+    margin: 25px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    float: right;
+    line-height: 25px;
+}
+.k {
+    position: absolute;
+    top: 1250px;
+    
+    left: 1110px;
+    
+}
+.k > p {
+    height: 100px;
+    width: 290px;
+    font-size: smaller;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+.l {
+    position: absolute;
+    top: 1350px;
+    display: inline-block;
+    left: 1000px;
+    
+}
+.l > img {
+    height: 100px;
+    width: 90px;
+    font-size: smaller;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px white;
+}
+.l > button {
+    height: 40px;
+    width: 150px;
+    font-size: smaller;
+    margin: 85px;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    background-color: rgb(2, 4, 3);
+    text-transform: uppercase;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.751);
+    position: absolute;
+    top: 1300;
+    left: 60px;
+}
+.l > button:hover {
+    color: rgb(14, 155, 162);
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
+.n {
+    background-color:rgb(3, 32, 42);
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 0px;
+    color: white;
+    width: 100%;
+
+}
+.p , .o , .n , .z {
+    display: inline-block;
+    text-align: center;
+    
+}
+.z {
+    float: right;
+    padding: 7px 55px;
+    text-indent: 25px;
+    
+
+}
+.p {
+font-weight: bold;
+font-size: 20px;
+text-shadow: 2px 2px 3px rgb(17, 10, 10);
+}
+.o {
+    font-size: 30px;
+}
+.p:hover {
+    color: blue;
+    text-decoration: underline;
+    
+}
